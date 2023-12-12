@@ -1,0 +1,59 @@
+#leftCol{
+    width: fit-content;
+}
+#imgContainer{
+    height: 50px;
+    width: 50px;
+}
+#imgContainer:hover, #navbar li a:hover{
+    background-color: rgb(200, 200, 200);
+}
+#navbar li a{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+#navbar li a i{
+    width: 100%;
+    font-size: large;
+}
+.fa-send-o{
+    margin-left: -3px;
+}
+.border{
+    border: 1px solid rgb(240, 240, 240);
+}
+textarea{
+    resize: none;
+    outline: none;
+    font-size: 20px;
+}
+article{
+    font-size: 13px;
+}
+.underCard{
+    font-size: 15px;
+}
+.grayBackground{
+    background-color: rgb(240, 240, 240);
+}
+#searchInput{
+    outline: none;
+}
+#trendsHeader, .trendsBody, #followHeader, .followBody{
+    line-height: 16px;
+}
+#trendsBox, #followBox{
+    border-radius: 15px;
+}
+.followImgContainer{
+    width: 15%;
+}
+@media screen and (min-width: 1200px) {
+    #navbar li a{
+        justify-content: left;
+    }
+    #navbar li a i{
+        width: 30px;
+    }
+}
